@@ -4,14 +4,14 @@
 1. ML: sklearn, pandas, numpy
 2. API: flask
 
-Данные: с kaggle - https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction
+Данные: с kaggle - https://www.kaggle.com/danofer/sarcasm
 
-Задача: предсказать по описанию вакансии является ли она фейком или нет (поле fraudulent). Бинарная классификация
+Задача: предсказать по комментарию и ответу, также теме беседы, является ответ сарказмом или нет (поле label). Бинарная классификация
 
 Используемые признаки:
-1. description (text)
-2. company_profile (text)
-3. benefits (text)
+1. comment (text)
+2. parent_comment (text)
+3. subreddit (text)
 
 Преобразования: tfidf
 
