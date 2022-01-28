@@ -30,10 +30,10 @@ idna==2.8
 ImageHash==4.1.0
 ipaddr==2.2.0
 ipykernel==5.3.2
-ipython==7.16.1
-ipython-genutils==0.2.0
-ipywidgets==7.5.1
-itsdangerous==1.1.0
+ipython
+ipython-genutils
+ipywidgets
+itsdangerous
 jedi==0.17.1
 Jinja2==2.11.3
 joblib==0.16.0
